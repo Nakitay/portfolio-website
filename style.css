@@ -1,0 +1,157 @@
+/* Portfolio stylesheet for all pages */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+  background-color: #f7f7fb;
+  line-height: 1.6;
+}
+header, footer {
+  background-color: #2f4f7f;
+  color: #f1f4fb;
+  padding: 20px 16px;
+}
+header h1, footer p {
+  margin-bottom: 8px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+nav a {
+  color: #eef3ff;
+  text-decoration: none;
+}
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+}
+main {
+  max-width: 960px;
+  margin: 24px auto;
+  padding: 16px;
+  background-color: #ffffff;
+  border: 1px solid #d0d7e3;
+  border-radius: 10px;
+}
+.section-heading {
+  color: #1a3b6f;
+  margin-bottom: 10px;
+}
+.resume-summary {
+  padding: 16px;
+  background-color: #eef3ff;
+  border-left: 4px solid #2f4f7f;
+  margin-bottom: 22px;
+}
+.content-block {
+  margin-bottom: 24px;
+}
+em {
+  font-style: italic;
+}
+strong {
+  font-weight: 700;
+}
+#current-date {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #f0f4ff;
+  border: 1px dashed #2f4f7f;
+}
+article {
+  margin-bottom: 24px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 14px;
+}
+caption {
+  caption-side: top;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+th, td {
+  border: 1px solid #aac1e0;
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #e3ecff;
+}
+footer ul {
+  list-style: disc inside;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+footer a {
+  color: #f1f4fb;
+}
+.goal-image {
+  width: 100%;
+  max-width: 520px;
+  display: block;
+  border: 2px solid #d0d7e3;
+  margin: 16px auto;
+}
+.media-group {
+  display: grid;
+  gap: 18px;
+  margin-top: 14px;
+}
+form {
+  display: grid;
+  gap: 14px;
+  margin-top: 20px;
+}
+form label {
+  font-weight: 600;
+}
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #9fb0d8;
+  border-radius: 6px;
+}
+form textarea {
+  min-height: 120px;
+}
+.radio-group {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+button[type="submit"] {
+  cursor: pointer;
+  padding: 12px 20px;
+  border: 1px solid #2f4f7f;
+  background-color: #2f4f7f;
+  color: #f1f4fb;
+  border-radius: 8px;
+}
+button[type="submit"]:hover {
+  background-color: #1e3560;
+}
+.highlight {
+  background-color: #fff3c4;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+footer {
+  text-align: center;
+}
+footer small {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.95rem;
+}

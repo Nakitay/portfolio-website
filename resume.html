@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Résumé | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Jordan Taylor</h1>
+    <p>Front-End Web Developer (Fictional Portfolio)</p>
+    <nav>
+      <ul>
+        <li><a href="resume.html">Résumé</a></li>
+        <li><a href="cover-letter.html">Cover Letter</a></li>
+        <li><a href="career-goals.html">Career Goals</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="resume-summary">
+      <h2 class="section-heading">Professional Summary</h2>
+      <p>This <strong>dedicated</strong> developer enjoys creating accessible websites and improving design with clear structure and thoughtful interactions.</p>
+    </section>
+    <article>
+      <h2>Skills and Core Competencies</h2>
+      <h3>Web Development Tools</h3>
+      <p>Experienced with <span>HTML</span>, <span>CSS</span>, and <span>JavaScript</span> for responsive, standards-based pages.</p>
+      <p>Comfortable using debugging tools to resolve browser-based issues<br>and validate code quality.</p>
+      <hr>
+      <h3>Highlights</h3>
+      <ul>
+        <li>Semantic HTML structure</li>
+        <li>Responsive layout design</li>
+        <li>Cross-browser compatibility testing</li>
+      </ul>
+    </article>
+    <article>
+      <h2>Work History</h2>
+      <h4>Marketing Coordinator</h4>
+      <p><em>Greenway Media</em>, March 2022 to Present</p>
+      <p>Designed landing pages and updated campaign assets for local clients.</p>
+      <h4>Content Assistant</h4>
+      <p><em>Riverside Learning</em> — January 2020 to February 2022</p>
+      <p>Collaborated on website updates, helping to maintain content and fix layout issues.</p>
+    </article>
+    <article>
+      <h2>Education</h2>
+      <h5>Professional Development Certificate</h5>
+      <p>UX Design and Web Fundamentals</p>
+      <ol>
+        <li>Accessible design practices</li>
+        <li>Responsive site layouts</li>
+        <li>Interactive content creation</li>
+      </ol>
+    </article>
+    <article>
+      <h2>Technical Table</h2>
+      <table>
+        <caption>Training and Project Experience</caption>
+        <thead>
+          <tr>
+            <th>Project</th>
+            <th>Tools</th>
+            <th>Duration</th>
+            <th>Outcome</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Portfolio Website</td>
+            <td>HTML, CSS, JavaScript</td>
+            <td>4 weeks</td>
+            <td>Improved navigation and layout</td>
+          </tr>
+          <tr>
+            <td>Client Landing Page</td>
+            <td>CSS Grid, Media Queries</td>
+            <td>2 weeks</td>
+            <td>Enhanced mobile experience</td>
+          </tr>
+          <tr>
+            <td>Content Redesign</td>
+            <td>HTML semantics, proofreading</td>
+            <td>3 weeks</td>
+            <td>Stronger readability</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+    <article>
+      <h2>Achievements</h2>
+      <h6>Class Project</h6>
+      <p>Completed a polished online portfolio that emphasizes both structure and visual clarity.</p>
+      <div id="current-date"></div>
+      <script>
+        const dateElement = document.getElementById('current-date');
+        const today = new Date();
+        dateElement.textContent = 'Current date: ' + today.toLocaleDateString();
+        console.log('Résumé page loaded successfully.');
+      </script>
+    </article>
+  </main>
+  <footer>
+    <p>Contact: jordan.taylor@example.com</p>
+    <ul>
+      <li><a href="resume.html">Résumé</a></li>
+      <li><a href="cover-letter.html">Cover Letter</a></li>
+      <li><a href="career-goals.html">Career Goals</a></li>
+    </ul>
+    <small>Created for a personal portfolio project.</small>
+  </footer>
+</body>
+</html>
